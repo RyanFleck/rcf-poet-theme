@@ -1,7 +1,7 @@
 ---
-title: Home
+title: Article Test 
 banner-image: assets/banners/x.png
-layout: default
+layout: article 
 ---
 
 This is a test page.
@@ -14,5 +14,3 @@ This is a test page.
 ```py
 print("Hello, syntax highlighting?")
 ```
-
-![ gif ]({{site.url}}/assets/banners/cubes.gif)

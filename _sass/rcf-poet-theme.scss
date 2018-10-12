@@ -1,7 +1,24 @@
 @charset "utf-8";
 
-$rcf-font-family: sans-serif !default;
-$rcf-font-size: 12px !default;
+/*
+ * Font configuration:
+ */
+
+$rcf-font-family: serif !default;
+$rcf-font-family-headers: sans-serif !default;
+$rcf-font-base-size: 12px !default;
+$rcf-font-weight: 400 !default;
+
+/*
+ * Color configuration:
+ */
+
+$rcf-font-color: black !default;
+$rcf-page-color: white !default;
+
+/*
+ * Import sass snippets:
+ */
 
 @import
   "rcf-poet-theme/foundation",

@@ -2,11 +2,14 @@
  * FOUNDATION
  *
  * Contains styling for fundamental container elements.
- *
+ * 
  */
 
-body{
-    font-family: bold 10px monospace;
-    color: white;
-    background-color: black;
+body {
+    font: $rcf-font-weight $rcf-font-base-size $rcf-font-family;
+    color: $rcf-font-color;
+    background-color: $rcf-page-color;
+    display: block;
+    margin: 0;
+    padding: 0;
 }

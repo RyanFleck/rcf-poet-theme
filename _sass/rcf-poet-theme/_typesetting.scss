@@ -1,0 +1,16 @@
+/*
+ * TYPESETTING 
+ *
+ * Contains styling for text blocks and headings. 
+ * 
+ */
+
+/*
+ * Headers
+ */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $rcf-font-family-headers;
+    margin: 0;
+    padding: 0;
+}
