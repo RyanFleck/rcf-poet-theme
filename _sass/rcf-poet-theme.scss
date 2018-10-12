@@ -1,6 +1,20 @@
 @charset "utf-8";
 
 /*
+ * RCF 'POET' THEME
+ *
+ * I have designed this theme with the following principles in mind:
+ *  - Simplicity:  Utilitarian and industrial design. Only very simple styling.
+ *  - Readability: Both body text and programs should not strain the eyes.
+ *  - Masculine:   Deep colors, strong elements, tender and delicate when appropriate. 
+ *
+ * This theme takes many design cues from the popular 'Minima' theme, which can
+ *  be found and reviewed at the following repo: https://github.com/ TODO
+ *
+ */
+
+
+/*
  * Font configuration:
  */
 
@@ -15,6 +29,23 @@ $rcf-font-weight: 400 !default;
 
 $rcf-font-color: black !default;
 $rcf-page-color: white !default;
+
+/*
+ * Media Queries
+ */
+
+$max-content-width: 700px;
+
+$mq-phone:600px; 
+$mq-laptop:1000px; 
+$mq-highrez:1800px;
+
+// Using MINIMA's media-query function:
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
 
 /*
  * Import sass snippets:

@@ -10,9 +10,3 @@ This is a test page.
 - Page Title: `{{ page.title }}`
 - Banner URL: `{{ site.url }}/{{ page.banner-image }}`
 
-**Python code block w/highlighter-rouge**
-```py
-print("Hello, syntax highlighting?")
-```
-
-![ gif ]({{site.url}}/assets/banners/cubes.gif)

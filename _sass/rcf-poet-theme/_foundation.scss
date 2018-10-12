@@ -13,3 +13,12 @@ body {
     margin: 0;
     padding: 0;
 }
+
+@include media-query($mq-phone) {
+    body {
+        font: $rcf-font-weight $rcf-font-base-size*1.2 $rcf-font-family;
+        color: white;
+        background-color: black;
+        display: block;
+    }
+}
